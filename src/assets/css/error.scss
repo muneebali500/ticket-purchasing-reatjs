@@ -1,0 +1,10 @@
+@import "./globals.scss";
+
+.error__main {
+  min-height: 80vh;
+  @include flexJustify(center);
+
+  h1 {
+    font-size: 5rem;
+  }
+}

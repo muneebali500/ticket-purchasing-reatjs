@@ -1,0 +1,22 @@
+@import "./globals.scss";
+
+.billing__info {
+  border: $containerBorder;
+  border-radius: $borderRadius;
+  padding: 2rem 2%;
+
+  &-heading {
+    font-size: $fontSizeHeading;
+    font-weight: $fontSemiBold;
+    margin-bottom: 1rem;
+  }
+
+  &-details {
+    list-style-type: none;
+
+    li {
+      font-size: 1.2rem;
+      font-weight: $fontMedium;
+    }
+  }
+}

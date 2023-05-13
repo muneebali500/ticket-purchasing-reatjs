@@ -1,0 +1,84 @@
+@import "./globals.scss";
+
+.showDetail__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #0000007b;
+  border-radius: 3px;
+
+  .show__img {
+    width: 18rem;
+    height: 12rem;
+  }
+
+  .showInfo {
+    list-style-type: none;
+    flex: 1;
+    display: grid;
+    grid-row-gap: 0.7rem;
+
+    &__name {
+      font-size: $fontSizeHeading;
+      font-weight: $fontBold;
+    }
+
+    &__time {
+      font-size: 1.3rem;
+      font-weight: $fontMedium;
+    }
+
+    &__genre {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    &__venue {
+      font-size: 1.2rem;
+      color: $mainBgColor;
+    }
+  }
+
+  .show__price {
+    display: grid;
+    justify-items: center;
+
+    span {
+      font-size: 5rem;
+    }
+  }
+}
+
+.show__form {
+  margin-top: 2rem;
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 1rem;
+  border: 1px solid #0000007b;
+  padding: 3rem 0;
+  border-radius: $borderRadius;
+
+  & > * {
+    padding: 1rem;
+    width: 40%;
+    border-radius: 3px;
+  }
+
+  &-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  &-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    background-color: $mainBgColor;
+    color: #fff;
+    text-align: center;
+
+    &:hover {
+      background-color: #1e2499;
+    }
+  }
+}

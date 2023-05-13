@@ -1,0 +1,46 @@
+@import "./globals.scss";
+
+.header {
+  min-height: 8rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+
+  .main__container {
+    @include flexJustify(space-between);
+  }
+
+  .company__logo {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+.nav__items {
+  display: flex;
+  gap: 4rem;
+
+  .nav__item {
+    font-size: 1.6rem;
+    transition: 0.3s linear;
+
+    &:hover {
+      color: #0d149d;
+    }
+  }
+}
+
+// .auth__btns {
+//   display: flex;
+//   gap: 2rem;
+
+//   .signup__btn,
+//   .login__btn {
+//     font-size: 1.4rem;
+//     padding: 1rem 2rem;
+//     color: #646cff;
+//   }
+
+//   .login__btn {
+//   }
+// }

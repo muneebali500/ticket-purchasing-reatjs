@@ -1,0 +1,24 @@
+@import "./globals.scss";
+
+.checkout__main {
+  .main__container {
+    @include flexBetween;
+    gap: 4%;
+
+    .left__side {
+      width: 60%;
+      display: grid;
+      grid-row-gap: 2rem;
+    }
+
+    .right__side {
+      width: 36%;
+      border: $containerBorder;
+      border-radius: $borderRadius;
+      padding: 2rem 2%;
+      display: grid;
+      align-content: flex-start;
+      grid-row-gap: 2rem;
+    }
+  }
+}

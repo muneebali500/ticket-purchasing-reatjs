@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "showName": "The Power of Music",
+    "showImage": "https://claremontcollege.education.tas.edu.au/wp-content/uploads/2020/06/IMG_2766-up-1536x1024.jpg",
+    "ticketPrice": 300,
+    "time": "11:00am",
+    "date": "May 20, 2023",
+    "genre": "Dance",
+    "venue": "Duke Energy Center of the Arts - Mahaffey Theater"
+  },
+  {
+    "id": 2,
+    "showName": "Brian Regan",
+    "showImage": "https://i.postimg.cc/j2RmyZ4x/tptgw.jpg",
+    "ticketPrice": 225,
+    "time": "08:00pm",
+    "date": "May 22, 2023",
+    "genre": "comedy",
+    "venue": "USF Theater 1 - Tampa, FL"
+  },
+  {
+    "id": 3,
+    "showName": "Jagged Little Pill",
+    "showImage": "https://www.classiquepromotions.co.uk/uploads/categories/33/original.jpg",
+    "ticketPrice": 335,
+    "time": "06:45pm",
+    "date": "May 24, 2023",
+    "genre": "Magic & Illusion",
+    "venue": "David A. Straz Center - Carol Morsani Hall"
+  },
+  {
+    "id": 4,
+    "showName": "Man of La Mancha",
+    "showImage": "https://www.dailyexcelsior.com/wp-content/uploads/2018/09/psycology.jpg",
+    "ticketPrice": 500,
+    "time": "01:00pm",
+    "date": "May 26, 2023",
+    "genre": "Psychology",
+    "venue": "Asolo Repertory Theatre"
+  },
+  {
+    "id": 5,
+    "showName": "Stright up with Stassi",
+    "showImage": "https://www.baylor.edu/content/imglib/3/0/4/0/304089.jpg",
+    "ticketPrice": 180,
+    "time": "03:00pm",
+    "date": "May 28, 2023",
+    "genre": "Arts",
+    "venue": "Plaza Live - Orlando"
+  },
+  {
+    "id": 6,
+    "showName": "Dance Theater of Tampa",
+    "showImage": "https://tse1.mm.bing.net/th?id=OIP.irSSDdflw59nHZnxIOpEaQHaE9&pid=Api&P=0",
+    "ticketPrice": 200,
+    "time": "11:30am",
+    "date": "May 29, 2023",
+    "genre": "Dance",
+    "venue": "USF Theatre 1"
+  }
+]

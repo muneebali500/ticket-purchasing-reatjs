@@ -1,0 +1,62 @@
+@import "./globals.scss";
+
+.payment__info {
+  border: $containerBorder;
+  border-radius: $borderRadius;
+  padding: 2rem 2%;
+
+  &-heading {
+    font-size: $fontSizeHeading;
+    font-weight: $fontSemiBold;
+    margin-bottom: 0.7rem;
+  }
+
+  &-details {
+    list-style-type: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    li {
+      input:not([type="radio"]) {
+        padding: 1rem;
+        font-size: 1.2rem;
+        border-radius: $borderRadius;
+        outline: none;
+        border: 1px solid;
+        width: 30rem;
+        max-width: 90%;
+      }
+    }
+
+    &--method {
+      display: flex;
+      gap: 1rem;
+      font-size: 1.4rem;
+      font-weight: $fontMedium;
+    }
+
+    &--cardName {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    &--cardNumber {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &-alternative {
+    padding: 2rem 3% 0;
+
+    h3 {
+      font-size: 1.6rem;
+      font-weight: $fontSemiBold;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+      font-weight: $fontMedium;
+    }
+  }
+}

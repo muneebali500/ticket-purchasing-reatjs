@@ -1,0 +1,101 @@
+@import "./globals.scss";
+
+.seller__notes {
+  // margin-bottom: 2rem;
+
+  h5 {
+    font-size: 1.3rem;
+    font-weight: $fontSemiBold;
+    margin-bottom: 0.3rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+.price {
+  &__total {
+    @include flexBetween;
+    font-size: $fontSizeHeading;
+    font-weight: $fontBold;
+    // margin-bottom: 2rem;
+  }
+
+  &__tickets {
+    // margin-bottom: 2rem;
+
+    h4 {
+      font-size: 1.3rem;
+      font-weight: $fontSemiBold;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      @include flexBetween;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__other-fee {
+    // margin-bottom: 2rem;
+
+    h4 {
+      font-size: 1.3rem;
+      font-weight: $fontSemiBold;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      @include flexBetween;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__delivery {
+    // margin-bottom: 2rem;
+
+    h4 {
+      font-size: 1.3rem;
+      font-weight: $fontSemiBold;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      @include flexBetween;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__note {
+    font-size: 1.2rem;
+    font-weight: $fontBold;
+  }
+
+  &__terms {
+    display: flex;
+    gap: 1rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.cancel__btn {
+  font-size: 1.2rem;
+  justify-self: flex-start;
+  padding: 0.5rem;
+  color: $mainBgColor;
+}
+
+.order__btn {
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  background-color: $mainBgColor;
+  color: #fff;
+
+  &:hover {
+    background-color: #2129bf;
+  }
+}

@@ -25,11 +25,11 @@ export default function BillingInfo({ showInfo }) {
   });
 
   const [totalPrice, setTotalPrice] = useState({
-    grossPrice: 0,
-    serviceFee: 0,
+    grossPrice: ticketPrice,
+    serviceFee: ticketPrice * 0.1 * 1,
     orderProcessingFee: ticketPrice * 0.02,
     deliveryCharges: 20,
-    totalTickets: 1 * ticketPrice,
+    totalTickets: 1,
   });
 
   //////// function takes user input data and stores it into userInfo object
@@ -78,7 +78,6 @@ export default function BillingInfo({ showInfo }) {
               <span>{date}</span> --- <span>{time}</span>
             </li>
             <li className="showInfo__genre">Genre: {genre}</li>
-
             <li className="showInfo__venue">Venue: {venue}</li>
           </ul>
 

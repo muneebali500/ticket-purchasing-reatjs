@@ -7,7 +7,7 @@ export default function PaymentInfo() {
 
       <ul className="payment__info-details">
         <li className="payment__info-details--method">
-          <input type="radio" name="Payment Method" selected />
+          <input type="radio" name="Payment Method" defaultChecked />
           <span>
             <i className="fa-regular fa-credit-card"></i>
           </span>

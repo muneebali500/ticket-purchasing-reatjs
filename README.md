@@ -37,6 +37,6 @@ The project was developed using VS Code editor and its integrated version contro
 
 #### Forking the repository
 
-1. Log in to GitHub and navigate to this project's repository: [ticket-purchasing-reactjs]()
+1. Log in to GitHub and navigate to this project's repository: [ticket-purchasing-reactjs](https://github.com/muneebali500/ticket-purchasing-reatjs)
 2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
